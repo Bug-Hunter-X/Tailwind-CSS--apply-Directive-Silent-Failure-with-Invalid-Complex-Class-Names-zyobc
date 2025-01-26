@@ -1,0 +1,13 @@
+The solution involves carefully reviewing and validating the class names used within the `@apply` directive.  Ensure that every class name exists and is correctly spelled.   Use your IDE's autocompletion features to help prevent typos.  For example, if you have the following incorrect `@apply` statement:
+
+```css
+@apply bg-gray-200 p-4 text-lg invalid-class;
+```
+
+And `invalid-class` is not defined, remove it or correct it to a valid class name.
+
+```css
+@apply bg-gray-200 p-4 text-lg;
+```
+
+This corrected version will apply the styles correctly.
